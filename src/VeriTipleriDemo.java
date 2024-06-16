@@ -10,7 +10,7 @@ public static   void main(String[] args){
     boolean myBoolean=true;
     int a= 10;
 
-    //primitive
+    //primitive (ilkel) değişkenler
 
 }
 
