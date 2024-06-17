@@ -30,7 +30,6 @@ public class JavaMethodları {
     private static double toplama(double a, double b, double c){
         return a+b+c;
     }
-
     //konsola kişinin adını ve sinav notunu yazdiran bir methıd oluşturun
     //method 2 adet parametre alsın ad ve sinav notu
 
