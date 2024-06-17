@@ -8,6 +8,10 @@ public class JavaMethodları {
 
         System.out.println("Voidsiz: " + carpma( + 8,7));
 
+
+        System.out.println("toplama2: " + toplama( + 8,7,16));
+        System.out.println("toplama3: " + toplama( + 8.1,7.7,9.8));
+
     }
 
     private static void konsolaYazdir(){
