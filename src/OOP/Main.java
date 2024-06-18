@@ -23,6 +23,14 @@ public class Main {
         ilkKopek.setIsim("Karabas");
         System.out.println("Kopeğimin yeni ismi: " + ilkKopek.getIsim());
 
+        ilkKopek.sesCikar(); //implement ettik hav hav
+        ilkKopek.uyku();
+
+        Kedi kedi = new Kedi();
+        kedi.sesCikar(); //miyav
+        //polymorphisim aynı methodu kullanaak farklı sonuçlar elde ettik.
+        kedi.uyku();
+
 
 
 

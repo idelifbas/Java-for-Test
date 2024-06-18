@@ -1,6 +1,6 @@
 package OOP;
-
-public class Kopek {
+//subclass
+public class Kopek extends Hayvan {
     //Encapculation
     private String isim;
     private String cins;
@@ -31,6 +31,15 @@ public class Kopek {
     //güncelleme yetkisi verdik
     public String setIsim(String yeniIsim) {
         return  this.isim = yeniIsim;
+    }
+
+    @Override
+    void sesCikar() {
+        System.out.println("hav hav");
+    }
+    @Override //aynı isimde üst sınıfta tanımlı methodu var o yüzden overrride yazıyoruz.
+    public void uyku(){
+        System.out.println("Kopek horluyor..");
     }
 }
     //  method yazıyoruz
