@@ -16,5 +16,15 @@ public class Main {
         mutfakLambasi.LambaDurumu(); //kapalı
 
 
+        Kopek ilkKopek = new Kopek("tommy", "golden",2);
+        System.out.println("Kopeğin adı: "+ ilkKopek.getIsim() + " cinsi: "
+        +ilkKopek.getCins() + " ve yasi: " + ilkKopek.getYas());
+
+        ilkKopek.setIsim("Karabas");
+        System.out.println("Kopeğimin yeni ismi: " + ilkKopek.getIsim());
+
+
+
+
     }
 }
