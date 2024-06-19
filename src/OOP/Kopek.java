@@ -39,6 +39,7 @@ public class Kopek extends Hayvan {
     }
     @Override //aynı isimde üst sınıfta tanımlı methodu var o yüzden overrride yazıyoruz.
     public void uyku(){
+        super.uyku();
         System.out.println("Kopek horluyor..");
     }
 }
